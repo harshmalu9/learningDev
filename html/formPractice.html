@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="wnameth=device-width, initial-scale=1.0">
+    <title>forms practice</title>
+</head>
+<body>
+    <h1>Pet Adoption Application Form</h1>
+
+    <form action="/submit" method="get">
+
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="name" required>
+
+        <br><br>
+
+        <label for="email">Email: </label>
+        <input type="email" id="email" name="email" required>
+
+        <br><br>
+        
+        <fieldset>
+            <legend>Pet Preference: </legend>
+            <label for="dog">Dog</label>
+            <input type="radio" id="dog" name="petpref" value="dog">
+            
+            <label for="cat">Cat</label>    
+            <input type="radio" id="cat" name="petpref" value="cat">
+            
+            <label for="bird">Bird</label>
+            <input type="radio" id="bird" name="petpref" value="bird">
+        </fieldset>
+
+        <br><br>
+
+        <label for="whyadobt">Why do you want to adobt?</label>
+        <br>
+        <textarea name="whyadobt" id="whyadobt" rows="4" cols="50" required></textarea>
+        <br>
+
+        <br><br>
+
+        <label for="petex">Do you have experirience with pets: </label>
+        <input type="checkbox" id="petex" name="petex">
+
+        <br><br>
+
+        <input type="submit" value="Submit">
+
+    </form>
+</body>
+</html>
+
+

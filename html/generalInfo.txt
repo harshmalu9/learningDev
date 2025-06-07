@@ -1,0 +1,6 @@
+this can be just a basic structure for the semantic html
+<header>
+<nav>
+<section><aside>
+<article>
+<footer>
